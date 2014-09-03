@@ -1,0 +1,24 @@
+.journey{margin: 24px 0;}
+.dayNum{height: 20px; line-height: 20px; width: 50px; background: #f08300; color: #fff; text-align: center; font-size: 14px;position: relative;display: inline-block; float: left; margin: 2px 0 0 0;}
+.dayNum_right_arrow{width: 0;height: 0;border-top: 4px solid transparent;border-left: 4px solid #f08300;border-bottom: 4px solid transparent; display: inline-block; position: absolute; top:6px; right: -4px;}
+.route{font-size: 16px;color: #00a7a7;display: inline-block;width: 80%; font-weight: normal;float: left; margin-left: 6px;}
+.journey_detail_outer{margin:10px;}
+.landscape{width: 100%;}
+.landscape li{float: left;margin-right: 4px;}
+.meet_location{font-size: 16px;color: #00a7a7;font-weight: normal; margin: 4px 0;}
+.meet_location_table{width: 100%;table-layout: fixed;border-spacing: 0;border-collapse: collapse; text-align: center;background: #fff;}
+.meet_location_take_bus, .meet_location_time, .meet_location_address{width: 33%;}
+.meet_location_table tr{height: 30px;}
+.meet_location_table th{font-size: 13px;color: #00a7a7; background: #cceded;}
+.meet_location_table td,.meet_location_table th{border: 1px solid #cbcbcb;}
+.meet_location_table td{font-size: 13px; color: #5f5f5f;}
+.viewAll, .hideAll{background: #f5f5f5;}
+.viewAll a{display: inline-block; padding-right: 10px; color: #5f5f5f;background: url(../img/m-all.png) no-repeat 50px -495px; background-size: 125px 1382px;}
+.hideAll a{background: url(//quimg.com/m/img/m-all.png) no-repeat 55px -511px; background-size: 125px 1382px;}
+.attention{font-size: 13px; color: #f00; margin: 4px 0;}
+.journey_detail_table{font-size: 13px; color: #5f5f5f;text-align: left;}
+.journey_detail_table tr{height: 26px; line-height: 1.6153;vertical-align: top;}
+.journey_detail_table td{text-align: left;}
+.journey_detail_table_label{width: 67px;}
+.poi_tag {float: left;padding: 0 5px;border: 1px solid #00a7a7;border-radius: 3px;color: #00a7a7;margin: 0 5px 5px 0;}
+footer p {font-size: 13px;color: #a8a8a8; text-align: center;}
