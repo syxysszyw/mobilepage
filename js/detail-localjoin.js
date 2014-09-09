@@ -39,11 +39,11 @@ $(function($, win, doc) {
 				$("#infoBar").hide();
 			});
 			$("#sendTrip").click(function(){
-				showErrorFormat("");
+				fShowErrorFormat("");
 				var email = $("#sendTripEmail").val();
 				var emailRegExp = ($C.func.wqRegExpTest("email",email)).code;
 				if((email != null||email != "") && emailRegExp == false){
-					showErrorFormat("邮箱格式不正确");
+					fShowErrorFormat("邮箱格式不正确");
 					return;
 				}
 			});
@@ -52,7 +52,7 @@ $(function($, win, doc) {
 				$("#infoBar").show();
 			});
 			//手机格式，邮箱格式错误提醒
-			function showErrorFormat(msg){
+			function fShowErrorFormat(msg){
 				$("#formateErrorMsg").html(msg);
 			}
 		})();
